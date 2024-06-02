@@ -403,7 +403,7 @@ header {
     flex: 0 0 45.8%;
     position: relative;
     top: -15px;
-    padding: 24px 115px;
+    padding: 24px 22px;
     font-size: 20.83px;
     line-height: 1;
     font-family: 'Alfa Slab One', cursive;
@@ -489,3 +489,298 @@ header {
     margin-right: 12px;
 }
 /*Footer*/
+
+
+@media (max-width: 1300px) {
+    .card-left-heading {
+        font-size: 28px;
+    }
+    .card-left-header-head {
+        margin-top: 20px;
+    }
+
+    .card-left-discription {
+        margin-top: 20px;
+        font-size: 18px;
+
+    }
+
+    .card-contant {
+        align-items: center;
+    }
+
+    .card-contant-left {
+        width: 50%;
+    }
+
+    .card-contant-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-contant-right img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .section-form {
+        padding: 70px 150px;
+    }
+
+    .form {
+        margin-top: 60px !important;
+        margin: -5px;
+    }
+
+    .form input, .form button {
+        flex: 0 0 40%;
+        margin: 5px;
+    }
+
+    .form button {
+        width: 100%;
+        flex: 0 0 45.8%;
+        top: 0px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    header {
+        background-position: top center;
+        height: 300px;
+        background-size: 100% 300px;
+    }
+    .header-head {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .header-nav-icon {
+        width: 30px;
+        height: 25px;
+        margin: 0;
+    }
+
+    .logo {
+        width: 131px;
+        height: 29px;
+    }
+
+    .nav {
+        flex-direction: row;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .phone-text {
+        width: 50%;
+    }
+
+    .header-phone-link {
+        line-height: 1;
+        font-size: 11px;
+    }
+
+    .header-head-logo-img {
+        width: 100%;
+        height: 100%;
+    }
+    .hero {
+        padding: 30px 15px;
+    }
+    .header-hero-heading {
+        font-size: 30px;
+        left: 0;
+    }
+
+    .header-hero-heading-last {
+        font-size: 24px;
+    }
+
+    .header-hero-discription {
+        width: 45%;
+        font-size: 12px;
+        letter-spacing: .5px;
+        padding: 8px 8px;
+        margin-bottom: 10px;
+    }
+
+    .section-tasty {
+        padding: 40px 15px;
+    }
+
+    .tasty-left {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tasty-left, .tasty-right {
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .tasty-right-first, .tasty-right-second, .tasty-left {
+        height: 180px;
+    }
+
+    .tasty-right-img, .tasty-left-img {
+        height: 100%;
+    }
+
+    .tasty-left-dicription, .tasty-right-dicription {
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    .tasty-left-heading, .tasty-right-heading {
+        top: 40px;
+        left: 20px;
+        font-size: 26px;
+    }
+
+    .tasty-contant-img {
+        flex-direction: column;    
+    }
+
+    .section-choose {
+        padding: 70px 15px 30px;
+    }
+
+    .choose-heading {
+        font-size: 36px;
+    }
+
+    .choose-heading-discription {
+        margin-top: 20px;
+    }
+
+    .choose-list {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .choose-item {
+        margin-bottom: 30px;
+    }
+
+    .choose-item-img {
+        width: 270px;
+    }
+
+    .choose-item-btn {
+        margin-top: 15px;
+        padding: 5px 20px;
+    }
+
+    .section-form {
+        padding: 50px 15px;
+    }
+
+    .section-card {
+        padding: 50px 15px;
+    }
+
+    .card-contant {
+        padding: 25px;
+    }
+
+    .card-contant-left {
+        width: 100%;
+    }
+
+    .card-contant-right {
+        display: none;
+    }
+
+    .card-left-discription {
+        font-size: 16px;
+    }
+
+    .form-heading {
+        font-size: 36px;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 30px !important;
+    }
+
+    .form-heading {
+        text-align: center;
+    }
+
+    .form input:nth-child(2n+1) {
+        margin: 0;
+    }
+
+    .form input, .form button {
+        margin: 10px 0 !important;
+        width: 80%;
+        font-size: 14px;
+        padding: 14px 15px;
+    }
+
+    .form input::placeholder {
+        font-size: 14px;
+    }
+
+    .form button {
+        width: 94% !important;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer-contant {
+        padding: 20px;
+        align-items: center;
+        background-size: 100% 100%;
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-right {
+        margin: 20px 20px 20px 0;
+    }
+
+    .footer-social-list {
+        top: 0;
+        flex-wrap: wrap;
+        width: 100px;
+    }
+
+    .footer-social-item {
+        margin: 7px !important;
+    }
+
+    .footer-email-icon {
+        width: 25px;
+        height: 20px;
+    }
+
+    .footer-addres-icon {
+        width: 23px;
+        height: 28px;
+        margin-right: 12px;
+    }
+
+    .footer-addres, .footer-email-link {
+        font-size: 14px;
+    }
+        }
